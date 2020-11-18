@@ -1,38 +1,132 @@
-.App {
+
+/*start*/
+/*tag management*/
+body{
+  background-color:#05314e;
   text-align: center;
+  background-image: url("./components/img/istockphoto-1174841576-612x612.jpg");
+  background-blend-mode: overlay ;
+  background-repeat: fill;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+text-align: center;
+height: auto;
+padding: 20px;
+margin: 20px;
+border-radius: 25px;
+color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main{
+text-align: center;
+height: auto;
+padding: 20px;
+margin:0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.head{
+text-align: center;
+height: auto;
+padding: 0px;
+margin:0px;
+color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.datetime{
+text-align: center;
+height: auto;
+padding: 5px;
+
+margin:0px;
+color: white;
+}
+.tagline{
+text-align: center;
+height: auto;
+padding: 5px;
+
+margin:0px;
+color: white;
+}
+.conprovider{
+
+text-align: center;
+height: auto;
+padding: 5px;
+
+margin:0px;
+color: white;
+}
+.wsearch{
+
+text-align: center;
+height: auto;
+padding: 5px;
+color: white;
+}
+.error{
+
+text-align: center;
+height: auto;
+padding: 5px;
+
+color: white;
+}
+.footer{
+
+text-align: center;
+height: auto;
+padding: 5px;
+
+color: white;
+}
+.wdata{
+  /*done don't touch*/
+
+text-align: center;
+height: fit-content;
+padding: 5px;
+color: white;
+margin: auto;
+width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#wdataheader{
+text-align: center;
+height: fit-content;
+padding: 10px;
+background-color: #0084ff8f;
+color: white;
+border-radius:25px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#wdatacontentright{
+text-align: center;
+height: auto;
+padding: 5px;
+background-color: #0084ff8f;
+color: white;
+border-radius:25px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+#header h1 {
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.icon {
+  margin-top: 15px;
+  padding: 0;
+  background-color: #00d9ff67;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
 }
